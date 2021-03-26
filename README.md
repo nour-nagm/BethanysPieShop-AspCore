@@ -8,7 +8,7 @@ My practice on Building Web Applications with ASP.NET Core MVC on Pluralsight (a
 ## Used Technologies
 
 - .NET 5 (C# 9.0)
-- ASP.NET
+- ASP.NET Core
 - Microsoft SQL Server Express LocalDB
-- Entity Framework
-- ASP.NET Identity
+- Entity Framework Core
+- ASP.NET Core Identity
