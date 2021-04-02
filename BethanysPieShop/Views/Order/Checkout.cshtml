@@ -1,24 +1,23 @@
 ﻿@model Order
 
-<form method="post" asp-action="Ckeckout" class="form-horizontal" role="form">
+<form asp-action="Checkout" method="post" class="form-horizontal" role="form">
     <h4>You're just one step from your delicious pies.</h4>
 
     <div asp-validation-summary="All" class="text-danger"></div>
-
-
-    <div class="form-group">
-        <label asp-for="LastName" class="col-md-2 control-label"></label>
-        <div class="col-md-5">
-            <input asp-for="LastName" class="form-control" />
-            <span asp-validation-for="LastName" class="text-danger"></span>
-        </div>
-    </div>
 
     <div class="form-group">
         <label asp-for="FirstName" class="col-md-2 control-label"></label>
         <div class="col-md-5">
             <input asp-for="FirstName" class="form-control" />
             <span asp-validation-for="FirstName" class="text-danger"></span>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="LastName" class="col-md-2 control-label"></label>
+        <div class="col-md-5">
+            <input asp-for="LastName" class="form-control" />
+            <span asp-validation-for="LastName" class="text-danger"></span>
         </div>
     </div>
 
