@@ -49,6 +49,8 @@ namespace BethanysPieShop
             
             app.UseRouting();
 
+            app.UseAuthentication();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
